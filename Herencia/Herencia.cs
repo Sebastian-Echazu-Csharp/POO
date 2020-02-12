@@ -5,12 +5,12 @@ namespace Herencia
     class Persona
 
     {
-        public string nombre { get; set; }
-        public string apellido { get; set; }
-
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        //se le agrega virtual al metodo para que las clases hijos puedad heredar y sobre escribir
         public virtual void EstaEnClase()
         {
-            Console.WriteLine(nombre + " " + apellido + " se encuentra en clase");
+            Console.WriteLine(Nombre + " " + Apellido + " se encuentra en clase");
         }
 
     }
@@ -21,9 +21,11 @@ namespace Herencia
         public Alumno(string grado, string nombre, string apellido)
         {
             this.grado = grado;
-            this.nombre = nombre;
-            this.apellido = apellido;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
         }
+
+        //utiliza el metodo EstaEnClase que hereda de la clase base
 
     }
 
@@ -33,8 +35,13 @@ namespace Herencia
         public Profesor(string materia, string nombre, string apellido)
         {
             this.materia = materia;
-            this.nombre = nombre;
-            this.apellido = apellido;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+        }
+        public override void EstaEnClase()
+        {
+            Console.WriteLine(Nombre + " " + Apellido + " se encuentra en clase y es profesor");
+
         }
 
     }
