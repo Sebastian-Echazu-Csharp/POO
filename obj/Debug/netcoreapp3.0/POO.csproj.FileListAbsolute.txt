@@ -1,0 +1,10 @@
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.exe
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.deps.json
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.runtimeconfig.json
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.runtimeconfig.dev.json
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.dll
+C:\Users\emadoz2\Documents\ECHAZU\POO\bin\Debug\netcoreapp3.0\POO.pdb
+C:\Users\emadoz2\Documents\ECHAZU\POO\obj\Debug\netcoreapp3.0\POO.AssemblyInfoInputs.cache
+C:\Users\emadoz2\Documents\ECHAZU\POO\obj\Debug\netcoreapp3.0\POO.AssemblyInfo.cs
+C:\Users\emadoz2\Documents\ECHAZU\POO\obj\Debug\netcoreapp3.0\POO.dll
+C:\Users\emadoz2\Documents\ECHAZU\POO\obj\Debug\netcoreapp3.0\POO.pdb
