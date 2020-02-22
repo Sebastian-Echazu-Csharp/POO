@@ -10,12 +10,31 @@ namespace POO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Prueba de Programacion Orientada a Objetos");
+            Console.WriteLine("|------------------------------------------|");
+            Console.WriteLine("|Prueba de Programacion Orientada a Objetos|");
+            Console.WriteLine("|------------------------------------------|");
 
-            //-------------------------------------------------------------------------------------
-            //HERENCIA
-            //-------------------------------------------------------------------------------------
-            //Creaos una lista de personas
+            Console.WriteLine("");
+
+
+            Console.WriteLine("ingrese una opcion: ");
+            int opcion = Int16.Parse(Console.ReadLine());
+            if (opcion == 1)
+            {
+                Herencia();
+            }
+            if (opcion == 2)
+            {
+                Agregacion();
+            }
+
+                                         }
+        //-------------------------------------------------------------------------------------
+        //HERENCIA
+        //-------------------------------------------------------------------------------------
+        public static void Herencia()
+        {
+            //Creamos una lista de personas
             List<Persona> Personas = new List<Persona>();
             //a esa lista de personas le agregamos alumnos y clases
             Personas.Add(new Profesor("Programacion", "Sebastian", "Echazu"));
@@ -26,9 +45,12 @@ namespace POO
             {
                 persona.EstaEnClase();
             }
-            //-------------------------------------------------------------------------------------
-            //AGREGACION
-            //-------------------------------------------------------------------------------------
+        }
+        //-------------------------------------------------------------------------------------
+        //AGREGACION
+        //-------------------------------------------------------------------------------------
+        public static void Agregacion()
+        {
             //creamos un edificio
             Edificio ed = new Edificio("San martin 844", 8);
             //creamos un propietario
@@ -39,9 +61,8 @@ namespace POO
             pro.AdicionaEdificio(ed);
             //mostramos las propiedades del propietario
             pro.MuestraPropiedad();
-
-
-
         }
     }
+
+
 }
